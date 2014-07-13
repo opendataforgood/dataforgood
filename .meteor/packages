@@ -1,0 +1,36 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+backbone
+accounts-base
+accounts-ui
+accounts-password
+accounts-twitter
+spiderable
+email
+crypto-md5
+momentjs
+standard-app-packages
+rss
+iron-router
+mailchimp
+telescope-i18n
+fast-render
+spin
+autoform
+collection2
+accounts-facebook
+telescope-tags
+telescope-base
+telescope-search
+telescope-lib
+telescope-rss
+telescope-api
+jquery-hotkeys
+marked
+bootstrap3-datepicker
+telescope-theme-hubble
+telescope-module-share
+subs-manager

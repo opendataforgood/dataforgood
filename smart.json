@@ -1,0 +1,16 @@
+{
+  "meteor": {},
+  "packages": {
+    "momentjs": {},
+    "crypto-base": {},
+    "crypto-md5": {},
+    "iron-router": {},
+    "fast-render": {},
+    "spin": {},
+    "autoform": {},
+    "jquery-hotkeys": {},
+    "marked": {},
+    "bootstrap3-datepicker": {},
+    "subs-manager": {}
+  }
+}
