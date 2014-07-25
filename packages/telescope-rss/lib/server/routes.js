@@ -1,18 +1,18 @@
-Meteor.startup(function () {
+Meteor.startup(function() {
 
-  Router.map(function() {
+    Router.map(function() {
 
-    // RSS
+        // RSS
 
-    this.route('feed', {
-      where: 'server',
-      path: '/feed.xml',
-      action: function() {
-        this.response.write(serveRSS());
-        this.response.end();
-      }
+        this.route('feed', {
+            where: 'server',
+            path: '/rss',
+            action: function() {
+                this.response.write(serveRSS());
+                this.response.end();
+            }
+        });
+
     });
-
-  });
 
 });
