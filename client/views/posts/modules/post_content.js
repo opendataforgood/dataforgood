@@ -3,7 +3,6 @@ Template[getTemplate('postContent')].helpers({
         return !!this.url ? getOutgoingUrl(this.url) : "/posts/" + this._id;
     },
     sourceLink: function() {
-        console.log('This is the Source Link' + this);
         return !!this.url ? this.url : "/posts/" + this._id;
     },
     postTarget: function() {
@@ -79,14 +78,4 @@ Template[getTemplate('postContent')].events({
         Meteor.call('unapprovePost', this);
         e.preventDefault();
     }
-});
-//* Helpers for the Social Media Share section
-Template[getTemplate('postShare')].helpers({
-    postUrl: function() {
-        return getPostUrl(this._id);
-    },
-    viaTwitter: function() {
-        return !!getSetting('twitterAccount') ? ' via ' + getSetting('twitterAccount') : '';
-    }
-
 });
