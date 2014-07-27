@@ -80,7 +80,7 @@ Template[getTemplate('postContent')].events({
         e.preventDefault();
     }
 });
-
+//* Helpers for the Social Media Share section
 Template[getTemplate('postShare')].helpers({
     postUrl: function() {
         return getPostUrl(this._id);
