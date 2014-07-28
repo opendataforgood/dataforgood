@@ -1,0 +1,8 @@
+.post-thumbnail{
+  margin-right: 0px !important;
+}
+.post-thumbnail img{
+  width: 80px;
+  display: inline-block;
+  margin-right: 10px;
+}
