@@ -10,7 +10,8 @@ Template[getTemplate('postShare')].helpers({
         return Meteor.absoluteUrl();
     },
     facebookAppId: function() {
-        return !!getSetting('facebookAppId') ? getSetting('facebookAppId') : '';
+        //return !!getSetting('facebookAppId') ? getSetting('facebookAppId') : '';
+        return "257294247797303"; //hardcoded fb api
     }
 
 });
