@@ -45,7 +45,7 @@ findQueueContainer=function($comment){
         window.openedComments.push(target.substr(1));
       });
       // scrollPageTo(links.first().attr("href"));
-      $(this).hide("slow").remove();
+     // $(this).hide("slow").remove();
     });
   }
   // console.log("comment", $comment);
