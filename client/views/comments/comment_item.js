@@ -133,7 +133,7 @@ Template[getTemplate('comment_item')].rendered=function(){
       $(comment_link).appendTo($container.find("ul"));
       // $(comment_link).appendTo($container.find("ul")).hide().fadeIn("slow");
 
-      $comment.removeClass("comment-displayed").addClass("comment-queued");
+      $comment.removeClass("comment-displayed")//.addClass("comment-queued");
       $comment.data("queue", $container);
       // TODO: take the user back to their previous scroll position
     }
